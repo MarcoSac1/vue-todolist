@@ -31,5 +31,5 @@ Bonus:
     - uso v-for nel parent (li) e stampo al suo interno il contenuto del ogetto (text) 
 - creo una che inverte il done per gestire il line trough
 - creo una funzione che mi permette tramite un input di creare un nuovo elemento della lista
-
+- creo un funzione che mi permette di rimuovere un task
         
