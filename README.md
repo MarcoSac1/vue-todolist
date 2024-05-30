@@ -29,5 +29,7 @@ Bonus:
         - done, un booleano (true/false) che indica se il todo è stato fatto oppure no
 - creo un ul nel html con il relativo parent 
     - uso v-for nel parent (li) e stampo al suo interno il contenuto del ogetto (text) 
-- creo un metodo che inverte il done per gestire il line trough
+- creo una che inverte il done per gestire il line trough
+- creo una funzione che mi permette tramite un input di creare un nuovo elemento della lista
+
         

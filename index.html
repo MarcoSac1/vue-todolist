@@ -17,6 +17,13 @@
                     {{ item.text }}
                 </li>
             </ul>
+            <section class="input">
+                <div>
+                    <label for="new-todo-input">type new things to do!</label>
+                    <input type="text" id="new-todo-input" v-model="newTaskContent"
+                    @keyup.enter="createNewTask(newTaskContent)">
+                </div>
+            </section>
         </main>
 
     </div>
