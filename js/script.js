@@ -45,6 +45,10 @@ createApp({
         
         clearInput(){
             this.newTaskContent= '';
+        },
+
+        removeTask:function(taskIndex) {
+            this.todoList.splice(taskIndex, 1);
         }
 
 
