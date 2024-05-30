@@ -21,3 +21,10 @@ Bonus:
 1 - cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se done era uguale a false, impostare true e viceversa)
 2 -  aggiungere un altro bottone che permetta la modifica di un task gia' esistente
 
+<!-- workflow -->
+
+- creo un arrai di ogetti 
+    - ogni ogetto avra le seguenti proprietà
+        - text, una stringa che indica il testo del todo
+        - done, un booleano (true/false) che indica se il todo è stato fatto oppure no
+        
