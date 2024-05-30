@@ -8,8 +8,19 @@
 </head>
 <body>
     <div id="app">
-        
+        <main class="todo-list-wrapper">
+            <h1> Todo List</h1>
+            <ul class="todo-list">
+                <li class="list-item" v-for="(item, index) in todoList" :key="index" 
+                :class="(item.done === true) ? 'done' : '' " @click="unDone(index)">
+                    
+                    {{ item.text }}
+                </li>
+            </ul>
+        </main>
+
     </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>

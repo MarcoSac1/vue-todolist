@@ -27,4 +27,7 @@ Bonus:
     - ogni ogetto avra le seguenti proprietà
         - text, una stringa che indica il testo del todo
         - done, un booleano (true/false) che indica se il todo è stato fatto oppure no
+- creo un ul nel html con il relativo parent 
+    - uso v-for nel parent (li) e stampo al suo interno il contenuto del ogetto (text) 
+- creo un metodo che inverte il done per gestire il line trough
         
